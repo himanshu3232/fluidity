@@ -38,7 +38,7 @@ export const links: linkGroup[] = [
       },
       {
         label: "ChatGPT",
-        value: "https://chatgpt.com/",
+        value: "https://chatgpt.com/?model=auto",
       },
       {
         label: "NeetCode",
