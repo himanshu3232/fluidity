@@ -75,7 +75,7 @@ export const links: linkGroup[] = [
         value: "https://www.youtube.com/",
       },
       {
-        label: "anime",
+        label: "Anime",
         value: "https://shizuru.app/home",
       },
       {
