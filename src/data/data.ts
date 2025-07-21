@@ -50,11 +50,12 @@ export const links: linkGroup[] = [
       },
       {
         label: "AWS",
-        value: "https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#",
+        value:
+          "https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#",
       },
       {
         label: "Udemy",
-        value: "https://www.udemy.com/"
+        value: "https://www.udemy.com/",
       },
       {
         label: "Github",
