@@ -30,50 +30,91 @@ export interface linkGroup {
 
 export const links: linkGroup[] = [
   {
-    title: "Reddit",
+    title: "Himanshu's",
     links: [
       {
-        label: "r/startpages",
-        value: "https://www.reddit.com/r/startpages/",
+        label: "Gmail",
+        value: "https://mail.google.com/",
       },
       {
-        label: "r/unixporn",
-        value: "https://www.reddit.com/r/unixporn/",
+        label: "ChatGPT",
+        value: "https://chatgpt.com/",
       },
       {
-        label: "r/rainmeter",
-        value: "https://www.reddit.com/r/rainmeter/",
+        label: "NeetCode",
+        value: "https://neetcode.io/roadmap",
       },
       {
-        label: "r/AnimalsBeingDerps",
-        value: "https://www.reddit.com/r/AnimalsBeingDerps/",
+        label: "LeetCode",
+        value: "https://leetcode.com/problemset/",
+      },
+      {
+        label: "AWS",
+        value: "https://ap-south-1.console.aws.amazon.com/console/home?region=ap-south-1#",
+      },
+      {
+        label: "Udemy",
+        value: "https://www.udemy.com/"
+      },
+      {
+        label: "Github",
+        value: "https://github.com/",
+      },
+      {
+        label: "Reddit",
+        value: "https://www.reddit.com/",
       },
     ],
   },
   {
-    title: "3D Modelling",
+    title: "Entertainment",
     links: [
       {
-        label: "Blender",
-        value: "https://www.blender.org/",
+        label: "Youtube",
+        value: "https://www.youtube.com/",
       },
       {
-        label: "BlenderGuru",
-        value: "https://www.blenderguru.com/",
+        label: "anime",
+        value: "https://shizuru.app/home",
       },
       {
-        label: "Poliigon",
-        value: "https://www.poliigon.com/",
+        label: "Pirate",
+        value: "https://https://nyaa.land/",
       },
+    ],
+  },
+  {
+    title: "Tutorials",
+    links: [
       {
-        label: "Blender tutorial",
+        label: "AI",
         value:
-          "https://www.youtube.com/watch?v=NyJWoyVx_XI&list=PLjEaoINr3zgEq0u2MzVgAaHEBt--xLB6U",
+          "https://youtube.com/playlist?list=PL9gnSGHSqcnrslTujkMYzx-GuVrpVpu5_&si=UGexyB3jkB097EoF",
       },
       {
-        label: "The other Blender tutorial",
+        label: "DevOps",
         value:
-          "https://www.youtube.com/watch?v=bpvh-9H8S1g&list=PL8eKBkZzqDiU-qcoaghCz04sMitC1yx6k&index=1",
+          "https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=qI7YVq9DihXCsgCN",
+      },
+      {
+        label: "Neural Networks",
+        value:
+          "https://youtube.com/playlist?list=PLAqhIrjkxbuWI23v9cThsA9GvCAUhRvKZ&si=LRTyH3pyo2Kxt33k",
+      },
+      {
+        label: "Spring AI",
+        value:
+          "https://youtube.com/playlist?list=PLZV0a2jwt22uoDm3LNDFvN6i2cAVU_HTH&si=xjOVU5wrksZIyR-0",
+      },
+      {
+        label: "JavaScript",
+        value:
+          "https://youtube.com/playlist?list=PLlasXeu85E9cQ32gLCvAvr9vNaUccPVNP&si=XAklEhgJ1LdLapbK",
+      },
+      {
+        label: "DSA Vids",
+        value:
+          "https://youtube.com/playlist?list=PL9gnSGHSqcnr_DxHsP7AW9ftq0AtAyYqJ&si=McW79J70Aeoqdgy8",
       },
     ],
   },
@@ -106,54 +147,24 @@ export const links: linkGroup[] = [
     title: "Music",
     links: [
       {
-        label: "i wanna be a cowboy",
-        value: "https://www.youtube.com/watch?v=8zWz92f_HGs",
+        label: "Pokemon RS",
+        value: "https://youtu.be/IwInqrN_auU?si=AyKScxvv3N9DmRAc",
       },
       {
-        label: "let the bodies hit the floor",
-        value: "https://www.youtube.com/watch?v=b--VKaCB9u0",
+        label: "Pokemon DP",
+        value: "https://youtu.be/Lqcne59fCnc?si=FYykw3iZGWYCqyDd",
       },
       {
-        label: "Nobody Kanna Cross It",
-        value: "https://www.youtube.com/watch?v=2wqTnwJGvtc",
+        label: "Ye chamak",
+        value: "https://youtu.be/pApyQSxCNsA?si=t3G3wRmNv7Ror5gk",
       },
       {
-        label: "Smug Dancin",
-        value: "https://www.youtube.com/watch?v=eNZ9Od1jQ4Q",
+        label: "Geeta",
+        value: "https://youtu.be/22oJCkJ00UU?si=vZ5gpEfyZGI6s4Pd",
       },
       {
-        label: "Utamaru - The Sanctified Mind Cover",
-        value: "https://www.youtube.com/watch?v=MHlJKLlS07U",
-      },
-    ],
-  },
-  {
-    title: "Sauce",
-    links: [
-      {
-        label: "Pictures - DeathAndMilk",
-        value: "https://www.instagram.com/deathandmilk_/",
-      },
-      {
-        label: "Icons - FontAwesome",
-        value: "https://fontawesome.com/icons",
-      },
-      {
-        label: "Text Flicker - CodeMyUI",
-        value:
-          "https://codemyui.com/crt-screen-text-flicker-animation-in-pure-css/",
-      },
-      {
-        label: "Wave Animation - mburakerman",
-        value: "https://codepen.io/mburakerman/pen/eRZZEv",
-      },
-      {
-        label: "Da real sauce ԅ(♡﹃♡ԅ)",
-        value: "https://www.youtube.com/watch?v=qr89xoZyE1g",
-      },
-      {
-        label: "Even more real sauce ( ͡° ͜ʖ ͡°)",
-        value: "https://www.youtube.com/watch?v=VLhJOd_TFiI",
+        label: "Runnin",
+        value: "https://youtu.be/O9ZwN7s20ec?si=wHnopG1EjGQBk2SK",
       },
     ],
   },
