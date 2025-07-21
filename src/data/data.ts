@@ -93,6 +93,11 @@ export const links: linkGroup[] = [
           "https://youtube.com/playlist?list=PL9gnSGHSqcnrslTujkMYzx-GuVrpVpu5_&si=UGexyB3jkB097EoF",
       },
       {
+        label: "System Design",
+        value:
+          "https://platform.bosscoderacademy.com/course",
+      },
+      {
         label: "DevOps",
         value:
           "https://youtube.com/playlist?list=PL9gnSGHSqcnoqBXdMwUTRod4Gi3eac2Ak&si=qI7YVq9DihXCsgCN",
